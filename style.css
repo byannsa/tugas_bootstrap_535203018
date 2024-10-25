@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Norican&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+
+
+:root {
+    --bg-color: #2b2b2d;
+    --second-bg-color: #363f39;
+    --third-bg-color: #9f8975;
+    --text-color: #d8d9da;
+    --main-color: #ffff;
+}
+
+body {
+    background: var(--bg-color);
+    color: var(--text-color);
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+
+.navbar-brand {
+    font-size: 30px;
+    font-family: "Norican", cursive;
+    font-weight: 400;
+    font-style: normal; 
+}
+
+.navbar {
+    background: var(--bg-color);
+}
+
+.container a {
+    color: #fff;
+}
+
+.container a:hover{
+    color: var(--third-bg-color);
+}
+
+.container h2 {
+    font-size: 36px;
+    color: var(--third-bg-color);
+}
+
+.container h1 {
+    color: var(--main-color);
+}
+
+.container h1 span {
+    color: var(--third-bg-color);
+}
+
+.carousel {
+    height: 600px;
+  }
+
+.carousel-item img {
+    border-radius: 25px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card {
+    background: var(--bg-color);
+    border: none;
+}
+.card img {
+    height: 400px;
+    width: 18rem;
+    object-fit: cover;
+}
+
+.container img {
+    border-radius: 25px;
+}
+
+.modal-content {
+    background: var(--bg-color);
+}
+
+.modal-title {
+    color: var(--third-bg-color);
+}
+
+.modal-body-title {
+    color: var(--third-bg-color);
+}
+
+.social-media a {
+    color: var(--text-color);
+}
+
+.social-media a:hover {
+    color: var(--third-bg-color);
+}
+
+.footer-content a {
+    text-decoration: none;
+}
+
+@media (max-width: 1403px) {
+    h3.fs-5 {
+        margin-top: -90px;
+    }
+}
+
+@media (max-width: 1200px) {
+    h3.fs-5 {
+        margin-top: -150px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 24px;
+    }
+
+    h1.fs-1 {
+        font-size: 28px;
+    }
+
+    h3.fs-5 {
+        font-size: 18px;
+        margin-top: -350px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .container h2 {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 768px) {
+    .col-lg-6 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .order-lg-1, .order-lg-2 {
+        order: 0; /* Menghilangkan urutan pada layar kecil */
+    }
+}
+
+@media (max-width: 768px) {
+    footer.container.footer-content {
+        font-size: 14px;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .modal-body-title {
+        font-size: 18px;
+    }
+
+    .social-media a {
+        font-size: 20px;
+        margin: 0 10px;
+    }
+}
+
